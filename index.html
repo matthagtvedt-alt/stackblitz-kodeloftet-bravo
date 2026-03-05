@@ -8,55 +8,64 @@
     <script type="module" src="script.js"></script>
   </head>
   <body>
-    <header>
-      <h2>MH</h2>
+    <header class="header">
+      <h2 class="headerLogo">MH</h2>
       <nav>
-        <ul class="navList">
-          <li>Hjem</li>
-          <li>Om Meg</li>
-          <li>Interessante Nettsider</li>
+        <ul class="headerList">
+          <a class="listAnchor" href=""><li class="listItem">Hjem</li></a>
+          <a class="listAnchor" href=""><li class="listItem">Om Meg</li></a>
+          <a class="listAnchor" href=""><li class="listItem">Interessante Nettsider</li></a>
         </ul>
       </nav>
     </header>
     <main>
       <section class="hero">
-        <h1>Velkommen!</h1>
-        <p>
+        <h1 class="heroTitle">Velkommen!</h1>
+        <p class="heroText">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda
           sunt in aliquam, ratione autem dicta animi esse? Maxime quisquam
           aliquid atque debitis fuga corrupti, doloremque cum maiores illum
           mollitia inventore?
         </p>
+        <p class="heroText">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Fugit, ullam natus voluptates, animi quas similique, quibusdam dolorem corrupti repellat cumque dignissimos ipsa voluptatum architecto esse quaerat dicta optio deserunt? 
+          Accusantium!
+        </p>
       </section>
 
       <section class="about">
-        <div class="aboutText">
+        <div class="aboutContainer">
           <h2>Om meg</h2>
           <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis
           labore, vitae, vero iure autem ab error temporibus animi eos quisquam
           expedita culpa sint fuga eius odio maxime sequi natus velit?
           </p>
-          
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta nesciunt quo dolore corrupti ad eos, soluta eum odio, facilis voluptas omnis libero suscipit excepturi exercitationem! Molestias beatae ab quaerat facilis?</p>
         </div>
         <img
         class="aboutImg"
         src="images/congress_at_night.avif"
-        alt="Kongresset (USA)"
-        >
+        alt="Kongresset (USA)">
         
       </section>
      
-      <section class="links">
-        <h2>Interessante Nettsider</h2>
-        <ul>
-          <li></li>
-          <li></li>
-        </ul>
+      <section class="projects">
+        <div class="projectCard">
+          <h3>Prosjekt 1</h3>
+          <img class="projectCardImg" src="images/blood_moon.avif" alt="Placeholder Image A">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In quia voluptatem placeat delectus quo molestiae ipsa provident facilis asperiores error. Sint eum a, accusamus corporis iure impedit rerum architecto iste.</p>
+        </div>
+
+        <div class="projectCard">
+          <h3>Prosjekt 2</h3>
+          <img class="projectCardImg" src="images/congress_at_night.avif" alt="Placeholder Image B">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit quasi aut libero voluptates. Ad nam eos nemo mollitia nobis quisquam voluptas officia maiores, exercitationem, laudantium eius veniam obcaecati cumque culpa!</p>
+        </div>
       </section>
 
-      <footer>
-        <p>Laget av Matteus Hagtvedt</p>
+      <footer class="footer">
+        <p class="footerCredit">MH</p>
       </footer>
     </main>
   </body>
