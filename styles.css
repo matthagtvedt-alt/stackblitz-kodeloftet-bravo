@@ -39,7 +39,8 @@ body {
 }
 
 .hero {
-  height: 100dvh;
+  min-height: 100dvh;
+  margin: 0.8rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -59,12 +60,14 @@ body {
 .heroText {
   background-color: #010100b3;
   color: #fff;
-  width: 300px;
+  max-width: 30rem;
   padding: 1.6rem;
 }
 
 .about {
-  height: 100dvh;
+  padding-top: 10rem;
+  min-height: 100dvh;
+  margin: 1.6rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,12 +83,15 @@ body {
 }
 
 .aboutImg {
-  height: 50%;
-  width: auto;
+  max-height: 50%;
+  max-width: 75%;
+  margin: 1.6rem;
 }
 
 .projects {
-  height: 100dvh;
+  padding-top: 10rem;
+  min-height: 100dvh;
+  margin: 2.4rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -95,6 +101,7 @@ body {
   border: 1px solid black;
   width: 30rem;
   border-radius: 1rem;
+  margin: 1.6rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -120,4 +127,19 @@ body {
   color: white;
   border-radius: 50%;
   padding: 2.8rem;
+}
+
+@media (max-width: 860px) {
+.hero {
+  flex-direction: column;
+}
+
+.about {
+  flex-direction: column;
+}
+
+.projects {
+  flex-direction: column;
+}
+
 }
