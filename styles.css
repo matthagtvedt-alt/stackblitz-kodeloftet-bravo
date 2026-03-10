@@ -1,14 +1,19 @@
+html{
+  font-size: 10px;
+}
+
 body {
   background-color: #eee;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.6rem;
 }
 /*Header på toppbaren*/
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 16px;
-  height: 100px;
+  padding: 0 1.6rem;
+  height: 10rem;
   background-color: #ccc;
   position: sticky;
   top: 0;
@@ -21,7 +26,7 @@ body {
 .headerList {
   display: flex;
   margin-left: 0;
-  gap: 16px;
+  gap: 1.6rem;
   list-style-type: none;
 }
 
@@ -34,7 +39,7 @@ body {
 }
 
 .hero {
-  height: 100vh;
+  height: 100dvh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -48,18 +53,18 @@ body {
 .heroTitle {
   background-color: #000b;
   color: white;
-  padding: 16px 24px;
+  padding: 1.6rem 2.4rem;
 }
 
 .heroText {
   background-color: #010100b3;
   color: #fff;
   width: 300px;
-  padding: 16px;
+  padding: 1.6rem;
 }
 
 .about {
-  height: 100vh;
+  height: 100dvh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,7 +76,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 16px;
+  gap: 1.6rem;
 }
 
 .aboutImg {
@@ -80,7 +85,7 @@ body {
 }
 
 .projects {
-  height: 100vh;
+  height: 100dvh;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -88,8 +93,8 @@ body {
 
 .projectCard {
   border: 1px solid black;
-  width: 300px;
-  border-radius: 10px;
+  width: 30rem;
+  border-radius: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -101,7 +106,7 @@ body {
 }
 
 .footer {
-  height: 150px;
+  height: 15rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -109,10 +114,10 @@ body {
 }
 
 .footerCredit {
-  font-size: 32px;
+  font-size: 3.2rem;
   font-family: Brush Script MT, Brush Script Std, cursive;
   background-color: #222b;
   color: white;
   border-radius: 50%;
-  padding: 28px;
+  padding: 2.8rem;
 }
