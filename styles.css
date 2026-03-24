@@ -20,7 +20,8 @@ body {
 }
 
 .headerLogo {
-
+  color: #db0;
+  text-shadow: 0.1rem 0.1rem 0.1rem black;
 }
 
 .headerList {
@@ -30,12 +31,10 @@ body {
   list-style-type: none;
 }
 
-.listAnchor {
-
-}
-
-.listItem {
-
+.hamburgerButton {
+  height: 3.2rem;
+  width: 3.2rem;
+  display: none;
 }
 
 .hero {
@@ -72,6 +71,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 
 .aboutContainer {
   width: 50%;
@@ -130,16 +130,19 @@ body {
 }
 
 @media (max-width: 860px) {
-.hero {
-  flex-direction: column;
-}
 
-.about {
-  flex-direction: column;
-}
+  .navbar{}
 
-.projects {
+  .hero {
   flex-direction: column;
-}
+  }
+
+  .about {
+    flex-direction: column;
+  }
+
+  .projects {
+    flex-direction: column;
+  }
 
 }
